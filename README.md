@@ -1,3 +1,2 @@
-# Deep Learning Research Lab – Studying the Implicit Regularization of Neural Networks
-
+# Deep Learning Research Lab
 This library implements a distributed computing infrastructure for simulations, model training & fine-tuning. It allowed the empirical, practical study we conducted while working on our paper [Implicit Regularization Towards Rank Minimization in ReLU Networks](https://arxiv.org/abs/2201.12760v1) (Nadav Timor, Gal Vardi, Ohad Shamir, 2022), which solves a principle open question on deep learning.
