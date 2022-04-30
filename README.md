@@ -1,2 +1,1 @@
-# deep-learning-research-lab
-Research Lab for Deep Learning - Studying the Implicit Regularization of Neural Networks
+# Deep Learning Research Lab – Studying the Implicit Regularization of Neural Networks
