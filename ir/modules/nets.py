@@ -93,7 +93,6 @@ class DFFNet(_Net):
         for p in self.parameters():
             p *= normalizing_scalar
 
-    # TODO: remove this function. Log the model state from outside
     def get_parameters_pt(self) -> Tensor:
         return torch.stack(list(self.parameters()))
 
