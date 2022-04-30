@@ -102,8 +102,6 @@ class Data(_Hyperparamers):
         self.IS_TEACHER_DATASET: bool = (self.TEACHER_DEPTH > 0) or (self.TEACHER_WIDTH > 0)
         if self.IS_TEACHER_DATASET is True:
             assert all((self.TEACHER_DEPTH > 0, self.TEACHER_WIDTH > 0))
-        #     self.TEACHER_SHAPE_WO_BIAS: Tuple = \
-        #         (self.INPUT_DIM,) + ((self.TEACHER_WIDTH,) * (self.DEPTH - 1)) + (self.LABEL_DIM,)
         self.TEACHER_HAS_BIAS: bool = False
         self.NUM_OF_DATAPOINTS: int = args.num_of_datapoints
 
