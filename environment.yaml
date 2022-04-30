@@ -1,0 +1,16 @@
+name: ir-erank-2021
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch=1.10
+  - ignite
+  - numpy
+  - pandas
+  - seaborn
+  - imageio
+  - gifsicle
+  - slack_sdk
+  - knockknock
+  - ray
